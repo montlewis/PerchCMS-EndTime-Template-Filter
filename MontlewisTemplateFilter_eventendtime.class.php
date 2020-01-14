@@ -19,4 +19,4 @@ return $endTime;
 }
 }
 PerchSystem::register_template_filter('eventendtime', 'MontlewisTemplateFilter_eventendtime');
-// <perch:content id="endTime" filter="eventendtime"/>
+// <perch:content id="eventDateTime" filter="eventendtime" format="l, F jS, Y g:ia">
